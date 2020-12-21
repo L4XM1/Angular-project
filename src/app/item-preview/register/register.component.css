@@ -1,0 +1,17 @@
+* {
+  position: absolute;
+  z-index: 222;
+  box-sizing: border-box;
+}
+
+.register {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  background-color: #efefef;
+  width: 450px;
+  height: 350px;
+}
+
+.login-btn {
+  border-radius: 0;
+}

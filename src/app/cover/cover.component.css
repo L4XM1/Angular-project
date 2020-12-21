@@ -1,0 +1,15 @@
+.hero {
+  height: 100vh;
+  min-height: 540px;
+  background-image: url("../../assets/images/livingRoom.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.btn {
+  border-radius: 0;
+  width: 160px;
+  height: 45px;
+}

@@ -1,0 +1,36 @@
+.navb {
+  border-bottom: 4px solid rgb(185, 185, 185);
+}
+
+.navbar-toggler,
+.navbar-toggler:active {
+  border: 2px solid rgb(236, 236, 236);
+}
+
+ul li a,
+.drop-btn {
+  color: gray;
+  text-decoration: none;
+}
+
+ul li a:hover,
+ul li a:active,
+.drop-btn:hover,
+.drop-btn:active,
+.navbar-toggler:active,
+.navbar-toggler:focus {
+  color: black;
+}
+
+.drop-btn:focus {
+  box-shadow: none;
+}
+.drop-item:active,
+.drop-item:focus {
+  background-color: rgb(185, 185, 185);
+  outline: none;
+}
+
+ul li a.active {
+  color: black;
+}

@@ -1,0 +1,17 @@
+.item {
+  height: 200px;
+  object-fit: cover;
+  object-position: bottom;
+  border-radius: unset;
+}
+
+.card {
+  border: none;
+}
+
+.btn {
+  border-radius: 0;
+  border: 2px solid gray;
+  width: 250px;
+  height: 42px;
+}

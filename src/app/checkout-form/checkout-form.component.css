@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+.checkout-form {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 180px;
+  padding-right: 180px;
+  background-color: #efefef;
+  width: 700px;
+  height: 900px;
+}
+
+.form-control {
+  border-radius: unset;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid darkgrey;
+}
+
+.form-control {
+  background-color: transparent;
+}
+
+.form-control:focus,
+.form-control:active {
+  box-shadow: gray;
+}
+
+.confirm-btn {
+  border-radius: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+#select-field {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  background-color: transparent;
+  padding-right: 130px;
+  border-bottom: 1px solid gray;
+  border-radius: 0;
+}
+
+.form-control:focus,
+.form-control:active,
+#select-field:active,
+#select-field:focus,
+#select-field:hover {
+  box-shadow: none;
+
+  background-color: transparent;
+  /* outline: none; */
+}
+
+form.form-inline.option:hover,
+form.form-inline.option:focus,
+form.form-inline.option:active {
+  /* background-color: rgb(185, 185, 185); */
+  background-color: transparent;
+  outline: none;
+}
+/*------ checkbox color ----*/
+/* 
+.form-check-label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.form-check-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.form-check-label input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.form-check-label input:checked ~ .checkmark {
+  background-color: #696b6d;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.form-check-label input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.form-check-label .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+} */

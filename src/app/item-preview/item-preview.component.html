@@ -1,0 +1,66 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 d-flex justify-content-between mt-5 p-0 mb-0">
+      <div class="col-md-4">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-0">
+            <li class="breadcrumb-item text-dark">
+              <a routerLink="/"><h6>Home</h6></a>
+            </li>
+            <li class="breadcrumb-item"><h6 routerLink="/shop">Shop</h6></li>
+            <li class="breadcrumb-item active">item.name</li>
+          </ol>
+        </nav>
+      </div>
+      <div class="col-md-2">
+        <nav aria-label="Page navigation ">
+          <ul class="pagination flex-lg-wrap">
+            <li class="page-item p-0 mb-0">
+              <a class="page-link border-0" href="#">< Previous</a>
+            </li>
+
+            <li class="page-item p-0 mb-0">
+              <a class="page-link border-0" href="#">Next > </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <hr class="m-0" />
+
+  <div class="row">
+    <div class="col-lg-8 col-sm-12">
+      <img
+        class="img-fluid"
+        src="../../assets/images/kitchen-dining-table.jpg"
+      />
+    </div>
+    <div class="col-lg-2">
+      <div class="card border-0" style="width: 18rem">
+        <div class="card-body">
+          <h5 class="card-title">Dining table</h5>
+          <h5 class="card-title"><em>50.000,00 RSD</em></h5>
+          <p class="card-text">
+            <em>
+              With supporting text below as a natural lead-in to additional
+              content. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum, quae.
+            </em>
+          </p>
+          <hr />
+          <div>
+            <label for="quantity" class="mt-4">Quantity</label><br />
+            <input type="number" name="quantity" style="width: 45px" />
+          </div>
+          <div>
+            <a href="#" class="btn btn-dark mt-4 pl-4 pr-4">Add to cart</a>
+            <!-- <ng-template [ngIf]="!authService.registeredUser()"
+              ><app-register></app-register
+            ></ng-template> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  background-image: url("../../assets/images/signupPattern.jpg");
+  height: 100vh;
+}
+
+.login-form {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 30px;
+  background-color: #efefef;
+  width: 320px;
+  height: 470px;
+}
+
+.x-btn {
+  border-radius: 50%;
+  background-color: #efefef;
+  padding: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+  width: 70px;
+}
+
+.close:focus {
+  outline: none;
+}
+
+.form-control {
+  border-radius: unset;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid darkgrey;
+}
+
+.form-control {
+  background-color: transparent;
+}
+
+.form-control:focus,
+.form-control:active {
+  box-shadow: 0px 1px 2px 1px gray inset;
+  border: 1px solid gray;
+}
+
+.login-btn {
+  border-radius: 0;
+}

@@ -1,0 +1,15 @@
+.btn-dark {
+  background-color: black;
+}
+
+ol {
+  background-color: transparent;
+}
+
+.breadcrumb {
+  font: 20px;
+}
+
+.breadcrumb-item a {
+  color: black;
+}

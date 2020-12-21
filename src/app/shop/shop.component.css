@@ -1,0 +1,39 @@
+.card-header {
+  background-color: transparent;
+  border-bottom: 4px solid black;
+}
+
+.list-group-item {
+  border-bottom: 2px dashed black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+}
+
+.shop-items {
+  padding-top: 60px;
+}
+
+.item {
+  height: 200px;
+  object-fit: cover;
+  object-position: bottom;
+  border-radius: unset;
+}
+
+.card {
+  border: none;
+}
+
+input {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+}
+
+input:focus {
+  box-shadow: none;
+  border: gray;
+}

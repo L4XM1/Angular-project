@@ -1,0 +1,30 @@
+<!-- cards -->
+<div class="container">
+  <div class="row d-flex justify-content-center">
+    <div
+      class="col-sm-12 col-md-6 col-lg-4 card-group text-center"
+      *ngFor="let item of shopItems | slice: 0:6"
+    >
+      <div class="card mt-1 mr-1 ml-1">
+        <img class="card-img-top item" [src]="item.image" [alt]="item.alt" />
+        <div class="card-body pt-2">
+          <h6 class="card-title pb-1 mb-0">{{ item.name }}</h6>
+          <p class="card-text">{{ item.price }} RSD</p>
+        </div>
+      </div>
+    </div>
+    <!-- item 2 -->
+  </div>
+  <!-- Load more button -->
+  <div class="row align-items-center m-4">
+    <div class="col d-flex justify-content-center">
+      <button
+        (click)="loadShop()"
+        type="button"
+        class="btn btn-outline-dark mb-4"
+      >
+        Load more
+      </button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <div class="checkout-form">
+            <form>
+              <div class="text-center mt-5">
+                <h5>Product Order Form</h5>
+              </div>
+              <div class="form-input mt-5">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control pb-5"
+                    placeholder="First Name"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control pb-5"
+                    placeholder="Last Name "
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control pb-5"
+                    aria-describedby="emailHelp"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control pb-5"
+                    placeholder="Phone Number"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control pb-5"
+                    placeholder="Address"
+                  />
+                </div>
+                <div>
+                  <label>Payment method:</label>
+                  <hr
+                    style="border: 1px solid rgb(179, 179, 179)"
+                    class="mt-0 mb-1"
+                  />
+                </div>
+                <small>Select an option</small>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="payment"
+                    id="credit-card"
+                    value="option1"
+                    checked
+                  />
+                  <span class="checkmark"></span>
+                  <label class="form-check-label" for="credit-card">
+                    Credit Card
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="payment"
+                    id="paypal"
+                    value="option2"
+                  />
+                  <span class="checkmark"></span>
+                  <label class="form-check-label" for="paypal"> PayPal </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="payment"
+                    id="on-delivery"
+                    value="option3"
+                  />
+                  <span class="checkmark"></span>
+                  <label class="form-check-label" for="on-delivery">
+                    Payment on Delivery
+                  </label>
+                </div>
+              </div>
+              <form class="form-inline">
+                <select class="custom-select my-1 mr-sm-2" id="select-field">
+                  <option class="option" selected>
+                    How did you hear about us?
+                  </option>
+                  <option class="option" value="1">Google search</option>
+                  <option class="option" value="2">From a friend</option>
+                  <option class="option" value="3">Other</option>
+                </select>
+              </form>
+              <div class="form-group">
+                <textarea
+                  class="form-control pl-2"
+                  rows="3"
+                  placeholder="Comments"
+                ></textarea>
+              </div>
+              <div class="mt-5 text-center">
+                <button
+                  type="submit"
+                  class="confirm-btn btn btn-dark pl-5 pr-5"
+                >
+                  Confirm
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

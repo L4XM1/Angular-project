@@ -1,0 +1,22 @@
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  left: 98%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  padding: 10px;
+  transition: all 0.3s ease;
+  background-color: #efefef;
+}
+.icon-bar a:hover {
+  background-color: white;
+}
+
+.icon-bar a img {
+  width: 20px;
+}
